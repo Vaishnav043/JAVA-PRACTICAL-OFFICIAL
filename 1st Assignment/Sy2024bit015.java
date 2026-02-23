@@ -79,7 +79,7 @@ for (int c = 0; c < n; c++) {
 int rowDist, colDist;
 
 if (r >= mid) rowDist = r - mid;
-else rowDist = mid - r;
+else rowDist = mid - r;     
 
 if (c >= mid) colDist = c - mid;
 else colDist = mid - c;
